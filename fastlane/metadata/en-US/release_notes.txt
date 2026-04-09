@@ -1,0 +1,5 @@
+Initial release of Koydo XAT Prep.
+
+• Practice questions
+• Score tracking
+• AI tutor integration

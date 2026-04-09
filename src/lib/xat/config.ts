@@ -1,0 +1,45 @@
+// XAT Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM038",
+  slug: "xat",
+  name: "XAT",
+  fullName: "Xavier Aptitude Test",
+  alias: "Xavier Aptitude Test",
+  family: "XAT",
+  category: "Admissions",
+  subcategory: "MBA admissions",
+  country: "India",
+  region: "South Asia",
+  languages: ["English"],
+  estimatedAnnualTakers: "varies",
+  testingWindow: "Jan",
+  schedulePattern: "Annual",
+  ageGroup: "20-30",
+  targetUser: "MBA applicant",
+  delivery: "Computer-based",
+  questionTypes: ["MCQ + essay in some years"],
+  adaptivity: "Section-based",
+  sections: "VA&LR, DM, QA, GK",
+  scoringMode: "Scaled percentile",
+  essayOrSpeaking: "Sometimes",
+  ipRisk: "Medium",
+  contentReuse: "aptitude_business",
+  uiEngine: "section_timed_mixed_response",
+  monetizationPotential: "Medium",
+  tier: "Tier 3",
+  launchWave: "Wave 5",
+  themeColor: "#1E40AF",
+  themeColorDark: "#1E3A8A",
+  localizationComplexity: "Low",
+  offlineNeeded: false,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
