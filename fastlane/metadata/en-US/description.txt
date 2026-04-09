@@ -1,0 +1,11 @@
+Prepare for the XAT (Xavier Aptitude Test) with Koydo — your AI-powered study companion.
+
+Features:
+- Verbal & Logical Ability practice questions
+- Decision Making practice questions
+- Quantitative Ability & Data Interpretation practice questions
+- General Knowledge practice questions
+- AI-powered analytics to identify weak areas
+- 10 free questions per day, unlimited with Premium
+
+XAT® is a registered trademark of XLRI Jamshedpur. This application is an independent study tool and is not affiliated with or endorsed by XLRI.

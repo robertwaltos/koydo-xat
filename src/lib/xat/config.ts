@@ -1,0 +1,32 @@
+export const EXAM_CONFIG = {
+  examId: "EXAM038",
+  slug: "xat",
+  name: "XAT",
+  fullName: "Xavier Aptitude Test",
+  description: "Free XAT practice for Verbal, Decision Making, Quantitative, and GK with AI analytics.",
+  url: "https://xat.koydo.app",
+  category: "Admissions",
+  subcategory: "Business school admissions",
+  country: "India",
+  region: "South Asia",
+  languages: ["English"] as const,
+  primaryLanguage: "en",
+  sections: [
+    "Verbal & Logical Ability",
+    "Decision Making",
+    "Quantitative Ability & Data Interpretation",
+    "General Knowledge",
+  ] as const,
+  testFormat: "Computer-based" as const,
+  questionFormat: "MCQ" as const,
+  scoring: "Percentile-based" as const,
+  themeColor: "#B45309",
+  themeColorDark: "#92400E",
+  ipRisk: "Medium" as const,
+  ipDisclaimer: "XAT® is a registered trademark of XLRI Jamshedpur. This application is an independent study tool and is not affiliated with or endorsed by XLRI.",
+  freemiumGate: { dailyQuestions: 10 },
+  contentReuseCluster: "aptitude_business",
+  uiEngineProfile: "section_timed_mixed_response",
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;

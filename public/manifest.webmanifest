@@ -1,0 +1,16 @@
+{
+  "name": "Koydo XAT",
+  "short_name": "XAT Prep",
+  "description": "Xavier Aptitude Test preparation — free practice questions, study guides, and AI-powered analytics.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#B45309",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
